@@ -1,0 +1,46 @@
+.calender {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .calender {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.carousel {
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.title h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+main .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .button {
+    width: 60%;
+    background-color: lightpink;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main .tomorrow .button {
+    background-color: royalblue;
+}
