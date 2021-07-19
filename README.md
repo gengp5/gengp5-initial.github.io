@@ -10,7 +10,7 @@ https://www.figma.com/file/oQm2GOY2IAwjvPtvuDSJfM/To-do-list?node-id=0%3A1
 wireframes draft :
 Ngaiman Noel Rex
 
-figma layout design :
+figma wireframe layout design :
 Ngaiman
 
 Noel : (html5 Bootsrap)
