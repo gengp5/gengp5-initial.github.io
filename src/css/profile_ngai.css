@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/css/profile_N.css
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
@@ -93,3 +94,43 @@
 =======
 }
 >>>>>>> d539c96ba42c7228fb15411ee924bd2713c14210:src/css/profile_N.css
+=======
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#profile {
+    display: flex;
+    background-color: #c4c4c4;
+    background-size: cover;
+    margin-top: auto;
+    height: 812px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.user-icon { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    width: 178px;
+    height: 178px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 20%;
+
+}
+>>>>>>> 299928bed126ca5ad3cf5a652ed8a3d1c0f44133:src/css/profile_ngai.css
