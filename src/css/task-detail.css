@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    background-color: #fff;
 }
 
 h1 {
@@ -26,12 +27,20 @@ h4 {
     font-size: 1.125rem;
 }
 
-/* tasks-topbar */
+h5 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 0.875rem;
+}
+
+
+/* tasks-detail-topbar */
 
 .task-topbar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     left: 0px;
     top: 0px;
@@ -55,111 +64,82 @@ h4 {
 }
 
 
-.tasks-card {
+/* tasks-detail */
+
+.task-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.task-title {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.task-title h3 {
+    margin-top: 0px;
+}
+.task-remind {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.remind-card {
+    background: #C4c4c4;
+    border: 1px solid #C4c4c4;
+    color: #FFF;
+    height: 40px;
+    width: 326px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.remind-card2 {
+    background: #C4c4c4;
+    border: 1px solid #C4c4c4;
+    color: #FFF;
+    height: 40px;
+    width: 198px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.task-notes h5 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.task-notes-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-notes .form-control {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 46px;
-}
-
-.today a {
-    color: #fff;
-    text-decoration: none;
-}
-
-input[type=checkbox] {
-    transform: scale(2);
-}
-
-.form-check {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    padding-right: 20px;
-}
-
-.tasks-card-pink1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
-    background: #fea1a1;
-    border: 1px solid #fea1a1;
-    color: #FFF;
-    border-radius: 10px;
-    height: 40px;
+    height: 290px;
     width: 326px;
-    padding-left: 20px;
-    margin-top: 15px;
-}
-
-.tasks-card-pink2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    background: #fea1a1;
-    border: 1px solid #fea1a1;
-    color: #FFF;
     border-radius: 10px;
-    height: 40px;
-    width: 326px;
-    padding-left: 20px;
-    margin-top: 15px;
-}
-
-
-.tasks-card-blue1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    background: #45a1e4;
-    border: 1px solid #45a1e4;
-    color: #FFF;
-    border-radius: 10px;
-    height: 40px;
-    width: 326px;
-    padding-left: 20px;
-    margin-top: 15px;
-}
-
-.tasks-card-blue2 {
-    background: #45a1e4;
-    border: 1px solid #45a1e4;
-    color: #FFF;
-    border-radius: 10px;
-    height: 40px;
-    width: 326px;
-    padding-left: 20px;
-    margin-top: 15px;
-}
-
-.upcoming-card {
-    background: #6b6c6d;
-    border: 1px solid #6b6c6d;
-    color: #FFF;
-    border-radius: 10px;
-    height: 40px;
-    width: 326px;
-    padding-left: 20px;
-    margin-top: 15px;
-}
-
-
-.someday-card {
-    background: #e4ba45;
-    border: 1px solid #e4ba45;
-    color: #FFF;
-    border-radius: 10px;
-    height: 40px;
-    width: 326px;
-    padding-left: 20px;
-    margin-top: 15px;
-}
-
-.form-group {
-    display: flex;
-    margin-top: 145px;
 }
 
 .form-group {
@@ -168,6 +148,7 @@ input[type=checkbox] {
     justify-content: center;
     width: auto;
     height: 40px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 
@@ -197,6 +178,7 @@ input[type=checkbox] {
 }
 
 
+
 .bottom-bar {
     background-color: #DFDFDF;
     display: flex;
@@ -215,5 +197,3 @@ input[type=checkbox] {
     margin-left: 40px;
     margin-right: 40px;
 }
-
-/* end of tasks-topbar */
