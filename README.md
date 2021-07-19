@@ -3,3 +3,30 @@
 
 Wireframe:
 https://www.figma.com/file/oQm2GOY2IAwjvPtvuDSJfM/To-do-list?node-id=0%3A1
+
+
+work 
+
+wireframes draft
+Ngaiman Noel Rex
+
+figma layout design
+Ngaiman
+
+Noel : (html5 Bootsrap)
+profile.html
+profile.css 
+
+Ngaiman : (html5 Bootsrap)
+index.html (login in)
+index.css (login in)
+tasks.html
+tasks.css
+tasks to do task detail.html
+tasks_desktop.html
+
+Rex : (html5 Bootsrap)
+index.html (login in) 
+index.css
+calender1.html
+calender.css
