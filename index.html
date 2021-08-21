@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- update : 2021/8/18 -->
+<!---ver 1-->
+<!---update : 2021/8/22-->
+<!---ver 2 : add form group in login button-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>To Do List</title>
+    <title>TODOO</title>
 </head>
 
 <body>
@@ -19,83 +24,76 @@
 
     <div class="profile-page">
         <div class="profile-topbar">
-            <h1>LOGO</h1>
-    
+            <h6>TODOO</h6>
+
         </div>
-    
+
         <div class="profile-icon">
             <div class="icon">
-                <h1>P</h1>
+                <img src="./src/img/logo_icon(bluecute) 1.svg">
             </div>
         </div>
-    
+
         <div class="profile-box">
             <div>
                 <h1>Login to <br>your account</h1>
             </div>
         </div>
-    
-        <!---<label for="exampleInputEmail1">Email address</label>-->
-    
+
+
+        <!---<label for="InputEmail">Email address</label>-->
         <div class="form-group">
-            <div class="form-frame">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" aria-describedby="emailHelp" required>
-              </div>
-    
-              <br>
-              <div class="form-frame">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                <small id="passwordHelp" class="form-text-text-muted"><br>
-                <div class="passwordHelp-text" h4><a href="#">Forgot Password?</h4></a>
-                </small>
-              </div>
-    
-              <br>
-              <br>
-              <div class="btn-btn-primary">
-                <button type="submit"><a href="profile.html"><h3>LOG IN</h3></button>
-              </div>
+            <!-- Email Address && Password && Forget Password -->
+            <div class="form-group-p1">
+                <div class="form-frame">
+                    <form action="./TODOO_profile.html" method="get">
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Email Address" aria-describedby="emailHelp" required>
 
-              <div class="remember-box">
-                <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me 
-                </label>
-              </div>
 
-              <div class="cancel-button">
-                <button type="button" class="cancelbtn">Cancel</button>
-              </div>
+                        <br>
 
+                        <input type="password" class="form-control" id="InputPassword" placeholder="Password" required>
+                        <small id="passwordHelp" class="form-text-text-muted"><br>
+            <div class="passwordHelp-text" h3><a href="index.html">Forgot Password ?</h3></a>
+            </div>
         </div>
 
+
     </div>
 
-    <!---rex ver
+    <!-- Remember-box && Login && Cancel button -->
+    <div class="form-group-p2">
+        <div class="form-frame-p2">
+        <div class="Login-button">
+                <button type="submit" value="button"><a href="./TODOO_profile.html"><h3>LOG IN</h3></a></button>
+        </div>
+    </form>
+        <div class="cancel-button">
+                    <a href="index.html">
+                    <button type="button" class="cancelbtn"><h3>CANCEL</h3></button></a>
+        </div>
+        <div class="remember-box">
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me 
+            </label>
+        </div>
+        
+        </div>
 
-    <div class="rex-ver">
-        <form action="/action_page.php" method="post">
 
-            <div class="form-frame">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Email Address/ Username" name="uname" required>
-    
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Password" name="psw" required>
-    
-                <button type="submit"><a href="tasks.html">Login</button>
-            </div>
-    
-            <div class="form-frame" style="background-color:#f1f1f1">
 
-                <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
-        </form>
-    
+
     </div>
 
--->
-
+</div>
 
 </body>
 
+<!-- update : 8/18/2021 -->
+<!---ver1-->
+
 </html>
+
+
+</div>
+

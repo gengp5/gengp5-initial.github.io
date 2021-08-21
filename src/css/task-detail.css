@@ -4,7 +4,8 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background-color: #fff;
+    background-size: auto;
+    height: 100%;
 }
 
 h1 {
@@ -38,14 +39,13 @@ h5 {
 
 .task-topbar {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     left: 0px;
     top: 0px;
-    background-color: #DFDFDF;
-    height: 55px;
+    background-color: #e44545;
+    height: 60px;
 }
 
 .task-topbar .icon {
@@ -58,10 +58,11 @@ h5 {
 }
 
 
-.notification_button {
+/* .notification_button {
     flex: 1;
     display: flex;
-}
+} */
+
 
 
 /* tasks-detail */
@@ -94,11 +95,11 @@ h5 {
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 10%;
 }
 
 .remind-card {
-    background: #C4c4c4;
-    border: 1px solid #C4c4c4;
+    
     color: #FFF;
     height: 40px;
     width: 326px;
@@ -106,14 +107,12 @@ h5 {
     margin-top: 15px;
 }
 
-.remind-card2 {
-    background: #C4c4c4;
-    border: 1px solid #C4c4c4;
-    color: #FFF;
-    height: 40px;
-    width: 198px;
-    padding-left: 20px;
-    margin-top: 15px;
+/* Task area setting */
+
+.task-notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .task-notes h5 {
@@ -137,9 +136,11 @@ h5 {
 .task-notes .form-control {
     display: flex;
     justify-content: center;
-    height: 290px;
+    height: 260px;
     width: 326px;
     border-radius: 10px;
+    border-color: #c4c4c4;
+    border-width: 2px;
 }
 
 .form-group {
@@ -177,14 +178,26 @@ h5 {
     outline: none;
 }
 
+#input-data-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center; 
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+
+
+/* bottom bar setting */
 
 
 .bottom-bar {
-    background-color: #DFDFDF;
+    background-color: #e44545;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
     height: 55px;
 }
 
